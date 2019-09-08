@@ -1,18 +1,18 @@
-# Watson Developer Cloud Python SDK
+# Watson Developer Cloud Python SDK - SUCREDITO
 
 [![Build Status](https://travis-ci.org/watson-developer-cloud/python-sdk.svg?branch=master)](https://travis-ci.org/watson-developer-cloud/python-sdk)
 [![Slack](https://wdc-slack-inviter.mybluemix.net/badge.svg)](https://wdc-slack-inviter.mybluemix.net)
 [![Latest Stable Version](https://img.shields.io/pypi/v/ibm-watson.svg)](https://pypi.python.org/pypi/ibm-watson)
 [![CLA assistant](https://cla-assistant.io/readme/badge/watson-developer-cloud/python-sdk)](https://cla-assistant.io/watson-developer-cloud/python-sdk)
 
-Python client library to quickly get started with the various [Watson APIs][wdc] services.
+Cliente Python para varios accesos a [Watson APIs][wdc] y servicios IBM.
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla de contenido (en traducción) </summary>
 
   * [Before you begin](#before-you-begin)
   * [Installation](#installation)
-  * [Examples](#examples)
+  * [Ejemplos](#examples)
   * [Running in IBM Cloud](#running-in-ibm-cloud)
   * [Authentication](#authentication)
     * [Getting credentials](#getting-credentials)
@@ -36,10 +36,10 @@ Python client library to quickly get started with the various [Watson APIs][wdc]
 
 </details>
 
-## Before you begin
+## Antes de Empezar
 * You need an [IBM Cloud][ibm-cloud-onboarding] account.
 
-## Installation
+## Instalación
 To install, use `pip` or `easy_install`:
 
 ```bash
@@ -59,8 +59,7 @@ a) Versions prior to 3.0.0 can be installed using:
 pip install --upgrade watson-developer-cloud
 ```
 
-b) If you run into permission issues try:
-
+b) Si entras con permiso:
 ```bash
 sudo -H pip install --ignore-installed six ibm-watson
 ```
